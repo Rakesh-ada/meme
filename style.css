@@ -1,0 +1,181 @@
+.btn {
+    position: relative;
+    top: 10px;
+    background-color: #57A6A1;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+
+button { 
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border-color: #577B8D;
+}
+
+body{ 
+    position: static;
+    background-color: #00224D;
+    
+}
+
+p{
+ font-size: large;
+ font-weight: bold;
+ 
+ text-align: center;
+ color: #577B8D;
+
+}
+
+.video {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: red;
+   
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-decoration: solid;
+}
+
+.gif {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+}
+
+.coloum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px; 
+ }
+
+ #player {
+    height: 315px;
+    width: 560px;
+
+  }
+
+  @media screen and (max-width: 375px) {
+    .btn {
+        position: relative;
+        top: 10px;
+        background-color: #57A6A1;
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+        
+    }
+    
+    button { 
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        background-color: red;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        border-color: #577B8D;
+    }
+    
+    body{ 
+        position: static;
+        background-color: #00224D;
+        
+    }
+    
+    p{
+     font-size: large;
+     font-weight: bold;
+     
+     text-align: center;
+     color: #577B8D;
+    
+    }
+    
+    .video {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .header {
+        background-color: red;
+       
+        text-align: center;
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    
+    
+    h1 {
+        color: rgb(0, 0, 0);
+        text-decoration: solid;
+    }
+    
+    .gif {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .coloum {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+      }
+    
+    .image {
+        visibility: hidden;
+    }
+
+    #player {
+        height: 180px;
+        width: 320px; ;
+    
+    }
+}
