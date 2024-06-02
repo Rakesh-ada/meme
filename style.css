@@ -109,13 +109,15 @@ body {
 
     }
 
-   
- 
-    body {
-      position: relative;
-       left: 212px;
-        overflow-x: hidden;
+    #main {
+    
+       position: relative;
+       
+       overflow-y: auto;
+       overflow-x: hidden;
     }
+ 
+  
  }
  
 
