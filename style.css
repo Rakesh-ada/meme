@@ -112,8 +112,8 @@ body {
    
  
     body {
-       overflow: hidden;
-        overflow-y: hidden;
+      position: relative;
+       left: 212px;
         overflow-x: hidden;
     }
  }
