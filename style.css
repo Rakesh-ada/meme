@@ -82,18 +82,11 @@ h1 {
     height: 315px;
     width: 560px;
  }
- html, body {
-    height: 100%;
-}
-
-html {
-    display: table;
-    margin: auto;
-}
+ 
 body {
-    display: table-cell;
+    overflow: hidden;
     overflow-y: hidden;
-        overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -117,17 +110,9 @@ body {
     }
 
    
-    html, body {
-        height: 100%;
-    }
-
-    html {
-        display: table;
-        margin: auto;
-    }
+ 
     body {
-        display: table-cell;
-        vertical-align: middle;
+       overflow: hidden;
         overflow-y: hidden;
         overflow-x: hidden;
     }
