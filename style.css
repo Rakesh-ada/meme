@@ -67,7 +67,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 350px;
+    gap: 30px;
 }
 
 .coloum {
@@ -83,12 +83,27 @@ h1 {
     width: 560px;
  }
  
-body {
-    
-    
-    overflow-x: hidden;
+ #main {
+    position: relative;
+    overflow-y: auto;
+     overflow-x: hidden;
 }
 
+.r{ 
+    position: absolute;
+    top: 19px;
+    left: 19px;
+    background-color:#577B8D;
+    border-radius: 10%;
+    height: 37.6px;
+    width: 45px;
+    border: 2px black solid;
+}
+
+
+    
+    
+    
 
 
  @media screen and (max-width: 430px) {
@@ -109,6 +124,11 @@ body {
 
     }
 
+   html{
+    height: 693.44px;
+    width: 425.6px;
+   }
+    
     #main {
     
        position: relative;
@@ -116,8 +136,6 @@ body {
        overflow-y: auto;
        overflow-x: hidden;
     }
- 
-  
  }
  
 
